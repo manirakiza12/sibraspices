@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#751f32">
+<meta name="description" content="SIBRA SPICES — premium wholesale and retail spices in Uganda. Shop cardamom, cinnamon, star anise and cumin. Visit Kafumbe Mukasa Road or book lectures and consultations at Owino Market.">
+<title>SIBRA SPICES | Premium Wholesale & Retail Spices in Uganda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script defer src="./main.js">
+</script>
+</head>
+<body class="bg-white font-sans text-ink antialiased">
+<a href="#main" class="fixed -top-24 left-4 z-50 rounded bg-white p-3 text-burgundy focus:top-4">Skip to content</a>
+<div class="bg-burgundy text-white">
+<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-2.5 text-[10px] sm:px-8 lg:px-12">
+<p class="flex items-center gap-2">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M2 5h12v12H2zM14 9h4l4 5v3h-8"/>
+<circle cx="6" cy="18" r="2"/>
+<circle cx="18" cy="18" r="2"/>
+</svg>
+<span>Wholesale &amp; Retail Deliveries Across Uganda</span>
+</p>
+<a href="tel:0763415857" class="shrink-0 font-semibold">Call 0763415857 <span class="hidden sm:inline">/ 0756776107</span>
+</a>
+</div>
+</div>
+<header class="sticky top-0 z-40 border-t-2 border-t-gold border-b border-b-line bg-white/95 backdrop-blur-xl">
+<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 sm:px-8 lg:px-12">
+<a href="#" class="flex shrink-0 items-center gap-3" aria-label="SIBRA SPICES home">
+<img src="./assets/logo.jpeg" alt="Sibra Spices logo" class="h-14! w-24! object-contain! sm:h-16! sm:w-28!" loading="lazy" decoding="async" width="640" height="720" >
+<span class="border-l border-line pl-3 lg:hidden 2xl:block">
+<span class="block text-[11px] font-extrabold tracking-[.12em] text-burgundy sm:text-xs">SIBRA SPICES</span>
+<span class="mt-1 block text-[8px] font-semibold uppercase tracking-[.1em] text-stone sm:text-[9px]">Wholesale &amp; Retail</span>
+</span>
+</a>
+
+<nav class="hidden min-w-0 items-center gap-3 whitespace-nowrap text-[11px] font-semibold lg:flex xl:gap-5" aria-label="Main navigation">
+<details class="shop-menu relative">
+<summary class="flex min-h-11 cursor-pointer list-none items-center gap-2 hover:text-burgundy">Shop <span aria-hidden="true">▾</span></summary>
+<div class="absolute left-0 top-full z-50 w-52 rounded-lg border border-line bg-white p-2 shadow-xl shadow-ink/5">
+<a class="block rounded-md px-3 py-3 hover:bg-cream hover:text-burgundy" href="#products" data-shop-filter="All spices">All products</a>
+<a class="block rounded-md px-3 py-3 hover:bg-cream hover:text-burgundy" href="#booking-form" data-service="Retail Spice Order">Build my order</a>
+<a class="block rounded-md px-3 py-3 hover:bg-cream hover:text-burgundy" href="#products" data-shop-filter="Whole spices">Food spices</a>
+<a class="block rounded-md px-3 py-3 hover:bg-cream hover:text-burgundy" href="#products" data-shop-filter="Botanicals">Botanicals</a>
+<a class="block rounded-md px-3 py-3 hover:bg-cream hover:text-burgundy" href="#products" data-shop-filter="Seeds & staples">Seeds &amp; staples</a>
+</div>
+</details>
+<a class="hover:text-burgundy" href="#blends">Tea &amp; Herbs</a>
+<a class="hover:text-burgundy" href="#wholesale">Wholesale / Bulk</a>
+<a class="hover:text-burgundy" href="#locations">Locations</a>
+<a class="hover:text-burgundy" href="#consultations">Consultations</a>
+<a class="hover:text-burgundy" href="#about">About</a>
+<a class="hover:text-burgundy" href="#contact">Contact</a>
+</nav>
+<div class="flex items-center gap-2">
+<a href="https://wa.me/256763415857" target="_blank" rel="noopener noreferrer" class="hidden min-h-12 shrink-0 items-center rounded-md bg-herb px-4 text-xs font-semibold text-white transition hover:bg-[#244934] lg:inline-flex">Order via WhatsApp</a>
+<a href="#booking-form" data-service="Retail Spice Order" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 hidden! bg-herb text-white hover:bg-[#244934] sm:inline-flex! lg:hidden!">Build my order<span aria-hidden="true">↗</span>
+</a>
+<button id="menu-toggle" class="grid size-11 place-items-center rounded-md border border-line text-xl lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+</div>
+</div>
+<nav id="mobile-nav" class="max-h-[65dvh] overflow-y-auto border-t border-line bg-white px-5 pb-5 lg:hidden" aria-label="Mobile navigation" hidden>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#products">Products</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#blends">Tea &amp; Herbs</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#wholesale">Wholesale &amp; Bulk Orders</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#locations">Our locations</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#consultations">Consultations & lectures</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#contact">Contact Sibra</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#about">About Sibra</a>
+<a class="block border-b border-line py-4 text-sm font-semibold" href="#booking-form" data-service="Retail Spice Order">Build my order</a>
+<a href="https://wa.me/256763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 mt-4 w-full bg-herb text-white hover:bg-[#244934]" target="_blank" rel="noopener noreferrer">Order via WhatsApp<span aria-hidden="true">↗</span>
+</a>
+</nav>
+</header>
+<main id="main">
+<section id="hero" aria-roledescription="carousel" aria-label="Discover Sibra Spices" class="relative overflow-hidden bg-cream">
+<div class="mx-auto max-w-7xl">
+<div class="relative grid" id="slides">
+<article class="hero-slide col-start-1 row-start-1 grid w-full gap-8 px-5 pb-22 pt-10 sm:px-8 md:grid-cols-[1.1fr_1fr] md:items-center md:gap-10 md:pb-20 md:pt-12 lg:gap-16 lg:px-12 lg:pt-16 lg:pb-24 visible opacity-100" aria-roledescription="slide" aria-label="1 of 3" aria-hidden="false" >
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">PREMIUM SPICES. EVERYDAY EXCELLENCE.</p>
+<h1 class="hero-title mb-5 text-[clamp(2.6rem,5.2vw,4.5rem)] font-extrabold leading-[1.08] tracking-[-.055em]">Big on flavour.<br>
+<span class="text-burgundy">Better in bulk.</span>
+</h1>
+<p class="mb-7 max-w-md text-sm leading-7 text-stone">Uganda’s #1 destination for pure, unadulterated spices. From your home kitchen to a hotel pantry, great taste starts with the right ingredients.</p>
+<div class="flex flex-wrap gap-3">
+<a href="#products" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-burgundy text-white hover:bg-wine" >Shop our spices<span aria-hidden="true">↗</span>
+</a>
+<a href="tel:0763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 border border-burgundy/25 bg-transparent text-burgundy hover:bg-burgundy/5" >Talk to our team<span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="mt-8 flex items-center gap-3 border-t border-line pt-5">
+<div class="flex -space-x-2">
+<img src="./assets/images (5).jpg" alt="Sibra team" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+<img src="./assets/images (10).jpg" alt="Sibra team member" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+<img src="./assets/images (7).jpg" alt="Sibra staff in the shop" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+</div>
+<div>
+<p class="text-[11px] font-bold">13.1K+ people follow our flavour</p>
+<p class="mt-0.5 text-[10px] text-stone">81.3K+ likes on TikTok <span class="mx-1 text-gold">✦</span> @sibraspices</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -right-3 -top-3 size-28 rounded-full border border-gold/40" aria-hidden="true">
+</div>
+<div class="relative h-[340px] overflow-hidden rounded-xl bg-[#dfd6bd] sm:h-[410px] lg:h-[470px]">
+<img src="./assets/banner1.jpg" alt="A vibrant collection of ground spices in bowls" class="h-full w-full object-cover" loading="eager" decoding="async" width="640" height="720" fetchpriority="high">
+<div class="absolute inset-0 bg-linear-to-t from-black/65 via-black/5 to-transparent">
+</div>
+<span class="absolute left-5 top-5 rounded-full border border-white/25 bg-white/95 px-4 py-2 text-[8px] font-bold tracking-[.12em] text-herb">WHOLESALE & RETAIL</span>
+<p class="absolute bottom-7 left-6 right-6 text-2xl font-bold leading-snug tracking-tight text-white lg:text-3xl">The foundation of unforgettable flavour.</p>
+</div>
+<div class="absolute -bottom-4 right-4 flex items-center gap-3 rounded-lg border border-line bg-white px-4 py-3 shadow-lg shadow-ink/5 sm:right-6">
+<span class="grid size-9 place-items-center rounded-full bg-gold/15 text-gold">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M4 20C1 4 15 2 21 3c1 15-7 20-17 17ZM4 20 16 8"/>
+</svg>
+</span>
+<span class="text-[10px] font-bold leading-5">GOOD INGREDIENTS.<br>
+<span class="font-medium text-stone">Great possibilities.</span>
+</span>
+</div>
+</div>
+</article>
+<article class="hero-slide col-start-1 row-start-1 grid w-full gap-8 px-5 pb-22 pt-10 sm:px-8 md:grid-cols-[1.1fr_1fr] md:items-center md:gap-10 md:pb-20 md:pt-12 lg:gap-16 lg:px-12 lg:py-16 pointer-events-none invisible opacity-0" aria-roledescription="slide" aria-label="2 of 3" aria-hidden="true" inert>
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">HERBAL WELLNESS & CONSULTATIONS</p>
+<h2 class="hero-title mb-5 text-[clamp(2.6rem,5.2vw,4.5rem)] font-extrabold leading-[1.08] tracking-[-.055em]">A little knowledge.<br>
+<span class="text-burgundy">A personal blend.</span>
+</h2>
+<p class="mb-7 max-w-md text-sm leading-7 text-stone">Expert lectures and specialized health blends at our Owino branch. Speak with our team about custom herbal blends, wellness consultations, and spice formulation.</p>
+<div class="flex flex-wrap gap-3">
+<a href="#consultations" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-burgundy text-white hover:bg-wine" >Book a consultation<span aria-hidden="true">↗</span>
+</a>
+<a href="tel:0763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 border border-burgundy/25 bg-transparent text-burgundy hover:bg-burgundy/5" >Talk to our team<span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="mt-8 flex items-center gap-3 border-t border-line pt-5">
+<div class="flex -space-x-2">
+<img src="./assets/images (5).jpg" alt="Sibra team" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+<img src="./assets/images (10).jpg" alt="Sibra team member" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+<img src="./assets/images (7).jpg" alt="Sibra staff in the shop" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+</div>
+<div>
+<p class="text-[11px] font-bold">13.1K+ people follow our flavour</p>
+<p class="mt-0.5 text-[10px] text-stone">81.3K+ likes on TikTok <span class="mx-1 text-gold">✦</span> @sibraspices</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -right-3 -top-3 size-28 rounded-full border border-gold/40" aria-hidden="true">
+</div>
+<div class="relative h-[340px] overflow-hidden rounded-xl bg-[#dfd6bd] sm:h-[410px] lg:h-[470px]">
+<img src="./assets/banner2.jpg" alt="A Sibra team member speaking at the spice shop" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" >
+<div class="absolute inset-0 bg-linear-to-t from-black/65 via-black/5 to-transparent">
+</div>
+<span class="absolute left-5 top-5 rounded-full border border-white/25 bg-white/95 px-4 py-2 text-[8px] font-bold tracking-[.12em] text-herb">OWINO MARKET BRANCH</span>
+<p class="absolute bottom-7 left-6 right-6 text-2xl font-bold leading-snug tracking-tight text-white lg:text-3xl">Learn. Ask. Find your next step.</p>
+</div>
+<div class="absolute -bottom-4 right-4 flex items-center gap-3 rounded-lg border border-line bg-white px-4 py-3 shadow-lg shadow-ink/5 sm:right-6">
+<span class="grid size-9 place-items-center rounded-full bg-gold/15 text-gold">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M4 20C1 4 15 2 21 3c1 15-7 20-17 17ZM4 20 16 8"/>
+</svg>
+</span>
+<span class="text-[10px] font-bold leading-5">GOOD INGREDIENTS.<br>
+<span class="font-medium text-stone">Great possibilities.</span>
+</span>
+</div>
+</div>
+</article>
+<article class="hero-slide col-start-1 row-start-1 grid w-full gap-8 px-5 pb-22 pt-10 sm:px-8 md:grid-cols-[1.1fr_1fr] md:items-center md:gap-10 md:pb-20 md:pt-12 lg:gap-16 lg:px-12 lg:py-16 pointer-events-none invisible opacity-0" aria-roledescription="slide" aria-label="3 of 3" aria-hidden="true" inert>
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">FARM-TO-TABLE WHOLESALE DISTRIBUTION</p>
+<h2 class="hero-title mb-5 text-[clamp(2.6rem,5.2vw,4.5rem)] font-extrabold leading-[1.08] tracking-[-.055em]">Your kitchen.<br>
+<span class="text-burgundy">Our supply.</span>
+</h2>
+<p class="mb-7 max-w-md text-sm leading-7 text-stone">Supplying kitchens, hotels, and retailers nationwide. Send your ingredient list and quantities for a wholesale quote and delivery arrangements.</p>
+<div class="flex flex-wrap gap-3">
+<a href="#consultations" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-burgundy text-white hover:bg-wine" >Request a wholesale quote<span aria-hidden="true">↗</span>
+</a>
+<a href="tel:0763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 border border-burgundy/25 bg-transparent text-burgundy hover:bg-burgundy/5" >Talk to our team<span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="mt-8 flex items-center gap-3 border-t border-line pt-5">
+<div class="flex -space-x-2">
+<img src="./assets/images (5).jpg" alt="Sibra team" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+<img src="./assets/images (10).jpg" alt="Sibra team member" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+<img src="./assets/images (7).jpg" alt="Sibra staff in the shop" class="size-8! rounded-full border-2 border-cream object-top!" loading="lazy" decoding="async" width="640" height="720" >
+</div>
+<div>
+<p class="text-[11px] font-bold">13.1K+ people follow our flavour</p>
+<p class="mt-0.5 text-[10px] text-stone">81.3K+ likes on TikTok <span class="mx-1 text-gold">✦</span> @sibraspices</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -right-3 -top-3 size-28 rounded-full border border-gold/40" aria-hidden="true">
+</div>
+<div class="relative h-[340px] overflow-hidden rounded-xl bg-[#dfd6bd] sm:h-[410px] lg:h-[470px]">
+<img src="./assets/banner3.jpg" alt="The Sibra team preparing a wholesale order beside cinnamon bark" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" >
+<div class="absolute inset-0 bg-linear-to-t from-black/65 via-black/5 to-transparent">
+</div>
+<span class="absolute left-5 top-5 rounded-full border border-white/25 bg-white/95 px-4 py-2 text-[8px] font-bold tracking-[.12em] text-herb">DELIVERING ACROSS UGANDA</span>
+<p class="absolute bottom-7 left-6 right-6 text-2xl font-bold leading-snug tracking-tight text-white lg:text-3xl">From our shelves to your business.</p>
+</div>
+<div class="absolute -bottom-4 right-4 flex items-center gap-3 rounded-lg border border-line bg-white px-4 py-3 shadow-lg shadow-ink/5 sm:right-6">
+<span class="grid size-9 place-items-center rounded-full bg-gold/15 text-gold">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M4 20C1 4 15 2 21 3c1 15-7 20-17 17ZM4 20 16 8"/>
+</svg>
+</span>
+<span class="text-[10px] font-bold leading-5">GOOD INGREDIENTS.<br>
+<span class="font-medium text-stone">Great possibilities.</span>
+</span>
+</div>
+</div>
+</article>
+</div>
+<div class="absolute bottom-5 left-0 right-0">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-12">
+<div class="flex items-center gap-2" aria-label="Choose a slide">
+<button class="slide-dot grid size-10 place-items-center rounded-full" data-slide="0" aria-label="Go to slide 1" aria-current="true">
+<span class="h-1.5 rounded-full w-7 bg-burgundy">
+</span>
+</button>
+<button class="slide-dot grid size-10 place-items-center rounded-full" data-slide="1" aria-label="Go to slide 2" aria-current="false">
+<span class="h-1.5 rounded-full w-2 bg-burgundy/25">
+</span>
+</button>
+<button class="slide-dot grid size-10 place-items-center rounded-full" data-slide="2" aria-label="Go to slide 3" aria-current="false">
+<span class="h-1.5 rounded-full w-2 bg-burgundy/25">
+</span>
+</button>
+</div>
+<div class="flex items-center gap-3">
+<span id="slide-count" class="mr-1 text-[10px] font-bold tracking-wider text-stone">01 / 03</span>
+<button id="pause-slider" class="grid size-10 place-items-center rounded-full border border-burgundy/20 text-sm text-burgundy" aria-label="Pause slideshow" aria-pressed="false">Ⅱ</button>
+<button id="prev-slide" class="grid size-10 place-items-center rounded-full border border-burgundy/20 text-burgundy" aria-label="Previous slide">←</button>
+<button id="next-slide" class="grid size-10 place-items-center rounded-full border border-burgundy/20 text-burgundy" aria-label="Next slide">→</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="about" aria-label="Sibra at a glance" class="border-y border-line">
+<div class="mx-auto grid max-w-7xl gap-6 px-5 py-8 sm:px-8 md:grid-cols-3 md:gap-8 lg:px-12">
+<div class="flex gap-4">
+<span class="grid size-11 shrink-0 place-items-center rounded-lg bg-cream text-burgundy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/>
+<circle cx="12" cy="10" r="2.5"/>
+</svg>
+</span>
+<div>
+<h2 class="mb-1 text-sm font-extrabold">Kafumbe Mukasa Branch</h2>
+<p class="max-w-xs text-xs leading-6 text-stone">Your main hub for fast wholesale distribution.</p>
+<a href="#locations" class="mt-2 inline-flex min-h-7 items-center gap-3 text-[10px] font-bold text-herb" >Find the main branch<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="grid size-11 shrink-0 place-items-center rounded-lg bg-cream text-burgundy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M4 20C1 4 15 2 21 3c1 15-7 20-17 17ZM4 20 16 8"/>
+</svg>
+</span>
+<div>
+<h2 class="mb-1 text-sm font-extrabold">Owino Market Branch</h2>
+<p class="max-w-xs text-xs leading-6 text-stone">Lectures, formulation & wellness consultations.</p>
+<a href="#consultations" class="mt-2 inline-flex min-h-7 items-center gap-3 text-[10px] font-bold text-herb" >Explore our services<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="grid size-11 shrink-0 place-items-center rounded-lg bg-cream text-burgundy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M2 5h12v12H2zM14 9h4l4 5v3h-8"/>
+<circle cx="6" cy="18" r="2"/>
+<circle cx="18" cy="18" r="2"/>
+</svg>
+</span>
+<div>
+<h2 class="mb-1 text-sm font-extrabold">Countrywide Delivery</h2>
+<p class="max-w-xs text-xs leading-6 text-stone">Safe, swift package dispatch to major Ugandan towns.</p>
+<a href="https://wa.me/256763415857" class="mt-2 inline-flex min-h-7 items-center gap-3 text-[10px] font-bold text-herb" target="_blank" rel="noopener noreferrer">Arrange your delivery<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="products" class="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12 lg:py-22">
+<div class="mb-8 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">THE INGREDIENTS YOU COME BACK FOR</p>
+<h2 class="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">Premium spices.<br>
+<span class="text-burgundy">Straightforward prices.</span>
+</h2>
+</div>
+<p class="max-w-sm text-sm leading-7 text-stone">For your signature dishes and your everyday staples. Order by the kilogram or ask for a quote for larger quantities.</p>
+</div>
+<div class="mb-7 flex flex-wrap gap-2" role="group" aria-label="Filter products">
+<button class="product-filter min-h-11 rounded-full border px-5 text-xs font-semibold transition border-burgundy bg-burgundy text-white" data-filter="All spices" aria-pressed="true">All spices</button>
+<button class="product-filter min-h-11 rounded-full border px-5 text-xs font-semibold transition border-line text-stone hover:border-burgundy hover:text-burgundy" data-filter="Whole spices" aria-pressed="false">Whole spices</button>
+<button class="product-filter min-h-11 rounded-full border px-5 text-xs font-semibold transition border-line text-stone hover:border-burgundy hover:text-burgundy" data-filter="Botanicals" aria-pressed="false">Botanicals</button>
+<button class="product-filter min-h-11 rounded-full border px-5 text-xs font-semibold transition border-line text-stone hover:border-burgundy hover:text-burgundy" data-filter="Seeds & staples" aria-pressed="false">Seeds & staples</button>
+</div>
+<div class="grid grid-cols-1 gap-5 min-[360px]:grid-cols-2 lg:grid-cols-4">
+<article class="product-card flex min-w-0 flex-col overflow-hidden rounded-lg border border-line bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-ink/5" data-category="Whole spices">
+<div class="relative h-64 overflow-hidden bg-cream min-[360px]:h-56 sm:h-72 lg:h-64">
+<img src="./assets/cardamom.jpg" alt="Shown in our spice assortment — inquire about Cardamom" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" style="object-position:50% 86%">
+<span class="absolute left-3 top-3 rounded bg-white/95 px-2.5 py-1.5 text-[8px] font-bold uppercase tracking-wider text-herb">Whole spices</span>
+</div>
+<div class="flex grow flex-col p-4 sm:p-5">
+<h3 class="text-lg font-extrabold tracking-tight sm:text-xl">Cardamom</h3>
+<p class="mt-2 min-h-10 text-[11px] leading-5 text-stone">Premium Aromatic Grade</p>
+<p class="mt-3 text-lg font-extrabold tracking-tight text-burgundy sm:text-xl">
+<span class="text-[10px] font-semibold">UGX</span> 75,000<span class="text-[10px] font-medium text-stone"> / kg</span>
+</p>
+<p class="mb-4 mt-2 text-[9px] text-stone">Shown in our spice assortment</p>
+<a href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20I%E2%80%99d%20like%20to%20order%20Cardamom%2C%20listed%20at%20UGX%2075%2C000%20per%20kg.%20Please%20confirm%20availability%20and%20the%20total%20for%20my%20quantity." class="mt-auto flex min-h-11 items-center justify-between gap-2 rounded border border-burgundy/25 px-3 py-2.5 text-[11px] font-bold text-burgundy transition hover:bg-burgundy hover:text-white" target="_blank" rel="noopener noreferrer">Buy now / Inquire <span aria-hidden="true">↗</span>
+</a>
+</div>
+</article>
+<article class="product-card flex min-w-0 flex-col overflow-hidden rounded-lg border border-line bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-ink/5" data-category="Whole spices">
+<div class="relative h-64 overflow-hidden bg-cream min-[360px]:h-56 sm:h-72 lg:h-64">
+<img src="./assets/cinnamon.jpg" alt="Cinnamon from the shop — inquire about Ceylon Cinnamon" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" style="object-position:50% 83%">
+<span class="absolute left-3 top-3 rounded bg-white/95 px-2.5 py-1.5 text-[8px] font-bold uppercase tracking-wider text-herb">Whole spices</span>
+</div>
+<div class="flex grow flex-col p-4 sm:p-5">
+<h3 class="text-lg font-extrabold tracking-tight sm:text-xl">Ceylon Cinnamon</h3>
+<p class="mt-2 min-h-10 text-[11px] leading-5 text-stone">Authentic, Pure Bark</p>
+<p class="mt-3 text-lg font-extrabold tracking-tight text-burgundy sm:text-xl">
+<span class="text-[10px] font-semibold">UGX</span> 40,000<span class="text-[10px] font-medium text-stone"> / kg</span>
+</p>
+<p class="mb-4 mt-2 text-[9px] text-stone">Cinnamon from the shop</p>
+<a href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20I%E2%80%99d%20like%20to%20order%20Ceylon%20Cinnamon%2C%20listed%20at%20UGX%2040%2C000%20per%20kg.%20Please%20confirm%20availability%20and%20the%20total%20for%20my%20quantity." class="mt-auto flex min-h-11 items-center justify-between gap-2 rounded border border-burgundy/25 px-3 py-2.5 text-[11px] font-bold text-burgundy transition hover:bg-burgundy hover:text-white" target="_blank" rel="noopener noreferrer">Buy now / Inquire <span aria-hidden="true">↗</span>
+</a>
+</div>
+</article>
+<article class="product-card flex min-w-0 flex-col overflow-hidden rounded-lg border border-line bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-ink/5" data-category="Botanicals">
+<div class="relative h-64 overflow-hidden bg-cream min-[360px]:h-56 sm:h-72 lg:h-64">
+<img src="./assets/star-anise.jpg" alt="Representative spice assortment — inquire about Star Anise" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" style="object-position:55% 25%">
+<span class="absolute left-3 top-3 rounded bg-white/95 px-2.5 py-1.5 text-[8px] font-bold uppercase tracking-wider text-herb">Botanicals</span>
+</div>
+<div class="flex grow flex-col p-4 sm:p-5">
+<h3 class="text-lg font-extrabold tracking-tight sm:text-xl">Star Anise</h3>
+<p class="mt-2 min-h-10 text-[11px] leading-5 text-stone">Whole Botanical Pods</p>
+<p class="mt-3 text-lg font-extrabold tracking-tight text-burgundy sm:text-xl">
+<span class="text-[10px] font-semibold">UGX</span> 40,000<span class="text-[10px] font-medium text-stone"> / kg</span>
+</p>
+<p class="mb-4 mt-2 text-[9px] text-stone">Representative spice assortment</p>
+<a href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20I%E2%80%99d%20like%20to%20order%20Star%20Anise%2C%20listed%20at%20UGX%2040%2C000%20per%20kg.%20Please%20confirm%20availability%20and%20the%20total%20for%20my%20quantity." class="mt-auto flex min-h-11 items-center justify-between gap-2 rounded border border-burgundy/25 px-3 py-2.5 text-[11px] font-bold text-burgundy transition hover:bg-burgundy hover:text-white" target="_blank" rel="noopener noreferrer">Buy now / Inquire <span aria-hidden="true">↗</span>
+</a>
+</div>
+</article>
+<article class="product-card flex min-w-0 flex-col overflow-hidden rounded-lg border border-line bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-ink/5" data-category="Seeds & staples">
+<div class="relative h-64 overflow-hidden bg-cream min-[360px]:h-56 sm:h-72 lg:h-64">
+<img src="./assets/cumin.jpg" alt="Representative spice assortment — inquire about Cumin Seeds" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" style="object-position:65% 85%">
+<span class="absolute left-3 top-3 rounded bg-white/95 px-2.5 py-1.5 text-[8px] font-bold uppercase tracking-wider text-herb">Seeds & staples</span>
+</div>
+<div class="flex grow flex-col p-4 sm:p-5">
+<h3 class="text-lg font-extrabold tracking-tight sm:text-xl">Cumin Seeds</h3>
+<p class="mt-2 min-h-10 text-[11px] leading-5 text-stone">Freshly Harvested Ground Base</p>
+<p class="mt-3 text-lg font-extrabold tracking-tight text-burgundy sm:text-xl">
+<span class="text-[10px] font-semibold">UGX</span> 25,000<span class="text-[10px] font-medium text-stone"> / kg</span>
+</p>
+<p class="mb-4 mt-2 text-[9px] text-stone">Representative spice assortment</p>
+<a href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20I%E2%80%99d%20like%20to%20order%20Cumin%20Seeds%2C%20listed%20at%20UGX%2025%2C000%20per%20kg.%20Please%20confirm%20availability%20and%20the%20total%20for%20my%20quantity." class="mt-auto flex min-h-11 items-center justify-between gap-2 rounded border border-burgundy/25 px-3 py-2.5 text-[11px] font-bold text-burgundy transition hover:bg-burgundy hover:text-white" target="_blank" rel="noopener noreferrer">Buy now / Inquire <span aria-hidden="true">↗</span>
+</a>
+</div>
+</article>
+</div>
+<p id="filter-status" class="sr-only" role="status">
+</p>
+<div class="mt-7 flex flex-col justify-between gap-3 rounded-md bg-cream p-4 text-[11px] text-stone sm:flex-row sm:items-center">
+<p>Prices shown per kilogram. Confirm stock, quantities & delivery charges with our team.</p>
+<a class="shrink-0 font-bold text-burgundy" href="#consultations" data-service="Wholesale Supply">Buying in bulk? Request a quote <span aria-hidden="true">↗</span>
+</a>
+</div>
+</section>
+<section id="blends" class="border-y border-line bg-cream">
+<div class="mx-auto grid max-w-7xl items-center gap-8 px-5 py-12 sm:px-8 md:grid-cols-[.85fr_1.15fr] md:gap-14 lg:px-12">
+<div class="relative h-80 overflow-hidden rounded-lg sm:h-96">
+<img src="./assets/blends.jpg" alt="Sibra branded jars of herbal powders and spice blends" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" >
+<span class="absolute bottom-4 left-4 rounded bg-white/95 px-3 py-2 text-[9px] font-bold text-herb">BLENDED FOR YOUR EVERYDAY.</span>
+</div>
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">WELLNESS & SPECIALTIES</p>
+<h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">More flavour.<br>
+<span class="text-herb">More possibilities.</span>
+</h2>
+<p class="max-w-lg text-sm leading-7 text-stone">Discover pantry favourites, custom herbal blends, and specialty combos. Tell us what you need and let our team guide the conversation.</p>
+<div class="my-6 flex flex-wrap gap-2">
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Tea%20Masala%20blends." target="_blank" rel="noopener noreferrer">Tea Masala blends ↗</a>
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Cloves." target="_blank" rel="noopener noreferrer">Cloves ↗</a>
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Black%20%26%20white%20pepper." target="_blank" rel="noopener noreferrer">Black & white pepper ↗</a>
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Garlic." target="_blank" rel="noopener noreferrer">Garlic ↗</a>
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Chia%20seeds." target="_blank" rel="noopener noreferrer">Chia seeds ↗</a>
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Fenugreek." target="_blank" rel="noopener noreferrer">Fenugreek ↗</a>
+<a class="inline-flex min-h-10 items-center rounded-full border border-herb/20 bg-white px-3.5 py-2 text-[11px] font-semibold text-herb transition hover:bg-herb hover:text-white" href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20available%20options%20and%20current%20price%20for%20Weight%20management%20combos." target="_blank" rel="noopener noreferrer">Weight management combos ↗</a>
+</div>
+<a href="https://wa.me/256763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-herb text-white hover:bg-[#244934]" target="_blank" rel="noopener noreferrer">Ask about a blend<span aria-hidden="true">↗</span>
+</a>
+<p class="mt-4 text-[10px] leading-5 text-stone">Wellness needs are individual. Discuss ingredients and suitability before choosing a combo.</p>
+</div>
+</div>
+</section>
+<section id="wholesale" class="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12 lg:py-22">
+<div class="grid items-center gap-10 md:grid-cols-2 lg:gap-20">
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">YOUR BUSINESS. CONSISTENTLY SUPPLIED.</p>
+<h2 class="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">A reliable ingredient<br>in <span class="text-burgundy">your business.</span>
+</h2>
+<p class="my-5 text-sm leading-7 text-stone">From a busy restaurant kitchen to a well-stocked retail shelf, your next supply starts with a simple conversation. Share your list, quantities, and destination.</p>
+<div class="mb-7 grid gap-4">
+<div class="flex gap-3">
+<span class="mt-1 text-herb">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+<path d="m5 12 4 4L19 6"/>
+</svg>
+</span>
+<div>
+<h3 class="text-sm font-bold">For hotels & kitchens</h3>
+<p class="mt-1 text-xs leading-6 text-stone">Spices for menus that keep people coming back.</p>
+</div>
+</div>
+<div class="flex gap-3">
+<span class="mt-1 text-herb">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+<path d="m5 12 4 4L19 6"/>
+</svg>
+</span>
+<div>
+<h3 class="text-sm font-bold">For retailers & stockists</h3>
+<p class="mt-1 text-xs leading-6 text-stone">Wholesale inquiries for your shelves and customers.</p>
+</div>
+</div>
+<div class="flex gap-3">
+<span class="mt-1 text-herb">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+<path d="m5 12 4 4L19 6"/>
+</svg>
+</span>
+<div>
+<h3 class="text-sm font-bold">For businesses across Uganda</h3>
+<p class="mt-1 text-xs leading-6 text-stone">Coordinate quantities, packaging, and dispatch with our team.</p>
+</div>
+</div>
+</div>
+<a href="#consultations" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-burgundy text-white hover:bg-wine" data-service="Wholesale Supply">Request a wholesale quote<span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="relative">
+<div class="h-[440px] overflow-hidden rounded-xl">
+<img src="./assets/wholesale.jpg" alt="Sibra staff in the shop with large sacks of ingredients" class="h-full w-full object-cover object-[center_40%]" loading="lazy" decoding="async" width="640" height="720" >
+</div>
+<div class="absolute -bottom-5 left-5 right-5 flex items-center justify-between gap-4 rounded-lg bg-herb px-5 py-4 text-white shadow-lg">
+<div>
+<p class="text-[9px] font-medium tracking-wider text-white/70">SMALL ORDERS. BIG SUPPLY.</p>
+<p class="mt-1 text-sm font-bold">One team. Your next order.</p>
+</div>
+<span>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M2 5h12v12H2zM14 9h4l4 5v3h-8"/>
+<circle cx="6" cy="18" r="2"/>
+<circle cx="18" cy="18" r="2"/>
+</svg>
+</span>
+</div>
+</div>
+</div>
+</section>
+<section id="locations" class="border-y border-line bg-soft">
+<div class="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
+<div class="mb-8 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">TWO BRANCHES. ONE SIBRA STANDARD.</p>
+<h2 class="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">Find your nearest<br>
+<span class="text-burgundy">Sibra connection.</span>
+</h2>
+</div>
+<p class="max-w-sm text-sm leading-7 text-stone">Visit us for your next ingredient, speak to our team, or arrange a lecture and consultation at Owino Market.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-2">
+<article class="overflow-hidden rounded-xl border border-line bg-white">
+<div class="relative h-64 sm:h-80">
+<img src="./assets/storefront.jpg" alt="The Sibra Spices storefront with ingredient sacks and branded signage" class="h-full w-full object-cover" loading="lazy" decoding="async" width="640" height="720" >
+<span class="absolute left-4 top-4 rounded bg-white px-3 py-2 text-[9px] font-bold text-burgundy">01 / WHOLESALE & RETAIL</span>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-extrabold">Kafumbe Mukasa Road</h3>
+<p class="mb-4 mt-3 text-sm leading-7 text-stone">Opposite Valley Park, near Denovo Shop,<br>Kampala, Uganda.</p>
+<p class="mb-5 border-t border-line pt-4 text-xs leading-6 text-stone">The main hub for wholesale distribution and retail spice inquiries.</p>
+<div class="flex flex-wrap gap-3">
+<a href="https://www.google.com/maps/search/?api=1&query=Sibra%20Spices%20Kafumbe%20Mukasa%20Road%20Kampala" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 border border-line text-burgundy hover:bg-cream" target="_blank" rel="noopener noreferrer">Get directions<span aria-hidden="true">↗</span>
+</a>
+<a href="tel:0763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-cream text-herb hover:bg-herb/10" >Call our team<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</article>
+<article class="overflow-hidden rounded-xl border border-line bg-white">
+<div class="relative h-64 sm:h-80">
+<img src="./assets/consultations.jpg" alt="Sibra team member at the spice shop; contact us for the Owino lecture location" class="h-full w-full object-cover object-[center_35%]" loading="lazy" decoding="async" width="640" height="720" >
+<span class="absolute left-4 top-4 rounded bg-white px-3 py-2 text-[9px] font-bold text-herb">02 / LEARN & CONSULT</span>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-extrabold">Owino Market</h3>
+<p class="mb-4 mt-3 text-sm leading-7 text-stone">Our dedicated center for expert lectures,<br>formulation & health consultations.</p>
+<p class="mb-5 border-t border-line pt-4 text-xs leading-6 text-stone">Contact our team for the exact meeting point, service availability, and appointments.</p>
+<div class="flex flex-wrap gap-3">
+<a href="#consultations" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-herb text-white hover:bg-[#244934]" data-service="Herbal Lecture Booking">Book a visit<span aria-hidden="true">↗</span>
+</a>
+<a href="https://wa.me/256763415857?text=Hello%20SIBRA%20SPICES!%20Please%20share%20the%20exact%20Owino%20Market%20location%20and%20available%20visit%20times." class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 border border-line text-herb hover:bg-cream" target="_blank" rel="noopener noreferrer">Ask for the pin<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section id="consultations" class="mx-auto grid max-w-7xl gap-10 px-5 py-16 sm:px-8 md:grid-cols-2 lg:gap-20 lg:px-12 lg:py-22">
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">LET’S TALK ABOUT WHAT YOU NEED</p>
+<h2 class="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">Better guidance.<br>
+<span class="text-herb">A personal next step.</span>
+</h2>
+<p class="mb-7 mt-5 text-sm leading-7 text-stone">Planning a wholesale order? Curious about a wellness combo? Want to learn spice formulation? Share a few details and our team will help you take the next step.</p>
+<div class="space-y-5">
+<div class="flex gap-4 border-b border-line pb-5">
+<span class="mt-1 text-xs font-bold text-gold">01</span>
+<div>
+<h3 class="text-sm font-bold">Wholesale supply</h3>
+<p class="mt-1 text-xs leading-6 text-stone">Ingredient lists, quantities, and distribution inquiries.</p>
+</div>
+</div>
+<div class="flex gap-4 border-b border-line pb-5">
+<span class="mt-1 text-xs font-bold text-gold">02</span>
+<div>
+<h3 class="text-sm font-bold">Weight management combos</h3>
+<p class="mt-1 text-xs leading-6 text-stone">A personal discussion about ingredients and suitability.</p>
+</div>
+</div>
+<div class="flex gap-4 border-b border-line pb-5">
+<span class="mt-1 text-xs font-bold text-gold">03</span>
+<div>
+<h3 class="text-sm font-bold">Herbal lectures</h3>
+<p class="mt-1 text-xs leading-6 text-stone">Learn about spices, formulation, and custom blends at Owino.</p>
+</div>
+</div>
+</div>
+<p class="mt-6 flex items-center gap-3 text-xs text-stone">
+<span class="text-burgundy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+<path d="M7 3H4a1 1 0 0 0-1 1c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3l-5-2-2 2a15 15 0 0 1-7-7l2-2-2-5Z"/>
+</svg>
+</span> Prefer a conversation? <a href="tel:0756776107" class="font-bold text-burgundy">0756776107</a>
+</p>
+<p class="mt-5 text-[10px] leading-6 text-stone">Wellness services are not a substitute for medical diagnosis or treatment. Discuss existing conditions, medicines, and suitability with a qualified healthcare professional.</p>
+</div>
+<form id="booking-form" class="self-start rounded-xl border border-line bg-cream p-6 sm:p-8">
+<h3 class="text-xl font-extrabold">How can we help?</h3>
+<p class="mb-6 mt-2 text-xs leading-6 text-stone">Your next order or appointment starts here.</p>
+<div class="grid gap-5 sm:grid-cols-2">
+<div>
+<label for="name" class="mb-2 block text-xs font-bold">Full name <span class="text-burgundy">*</span>
+</label>
+<input id="name" name="name" autocomplete="name" required maxlength="100" placeholder="Your name" class="w-full rounded-md border border-line bg-white px-3.5 py-3 text-base sm:text-sm">
+</div>
+<div>
+<label for="phone" class="mb-2 block text-xs font-bold">Phone number <span class="text-burgundy">*</span>
+</label>
+<input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="25" placeholder="e.g. 0772 123456" class="w-full rounded-md border border-line bg-white px-3.5 py-3 text-base sm:text-sm">
+</div>
+</div>
+<div class="mt-5">
+<label for="location" class="mb-2 block text-xs font-bold">Your location <span class="text-burgundy">*</span>
+</label>
+<input id="location" name="location" required autocomplete="address-level2" maxlength="150" placeholder="Town, district, or delivery area" class="w-full rounded-md border border-line bg-white px-3.5 py-3 text-base sm:text-sm">
+</div>
+<div class="mt-5">
+<label for="service" class="mb-2 block text-xs font-bold">Select service <span class="text-burgundy">*</span>
+</label>
+<select id="service" name="service" required class="w-full rounded-md border border-line bg-white px-3.5 py-3 text-base sm:text-sm">
+<option value="">Choose a service…</option>
+<option>Wholesale Supply</option>
+<option>Retail Spice Order</option>
+<option>Weight Management Combo</option>
+<option>Herbal Lecture Booking</option>
+</select>
+</div>
+<div class="mt-5">
+<label for="message" class="mb-2 block text-xs font-bold">A little more detail <span class="font-normal text-stone">(optional)</span>
+</label>
+<textarea id="message" name="message" maxlength="2000" rows="3" placeholder="Ingredients and quantities, your goals, or a preferred lecture date…" class="w-full resize-y rounded-md border border-line bg-white px-3.5 py-3 text-base sm:text-sm">
+</textarea>
+</div>
+<button type="submit" class="mt-6 flex min-h-12 w-full items-center justify-between gap-3 rounded-md bg-burgundy px-5 py-3 text-sm font-bold text-white transition hover:bg-wine">Continue on WhatsApp <span aria-hidden="true">↗</span>
+</button>
+<p class="mt-3 text-[10px] leading-6 text-stone">Review and send your request in WhatsApp. Our team confirms availability, appointment times, fees, and next steps. No payment is taken here.</p>
+<p id="booking-status" role="status" class="mt-3 text-xs leading-6 text-herb">
+</p>
+</form>
+</section>
+<section class="bg-herb">
+<div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-5 py-10 text-white sm:px-8 md:flex-row md:items-center lg:px-12">
+<div>
+<p class="mb-2 text-[9px] font-semibold uppercase tracking-[.2em] text-[#e2c36d]">FOLLOW THE FLAVOUR</p>
+<h2 class="text-2xl font-extrabold tracking-tight sm:text-3xl">Real spices. Real people. Real Sibra.</h2>
+<p class="mt-3 text-xs leading-6 text-white/70">Join 13.1K+ followers & discover what’s happening at @sibraspices.</p>
+</div>
+<a href="https://www.tiktok.com/@sibraspices" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 shrink-0 border border-white/25 bg-white/10 text-white hover:bg-white/20" target="_blank" rel="noopener noreferrer">Find us on TikTok<span aria-hidden="true">↗</span>
+</a>
+</div>
+</section>
+<section id="contact" class="mx-auto max-w-7xl px-5 py-12 sm:px-8 lg:px-12">
+<div class="flex flex-col justify-between gap-6 rounded-xl bg-cream px-6 py-8 sm:px-8 md:flex-row md:items-center">
+<div>
+<p class="mb-3 text-[10px] font-bold uppercase tracking-[.2em] text-burgundy">READY WHEN YOU ARE</p>
+<h2 class="text-2xl font-extrabold tracking-tight">What’s on your spice list?</h2>
+<p class="mt-2 text-xs leading-6 text-stone">Call or WhatsApp us for products, supply, and appointments.</p>
+</div>
+<div class="flex flex-wrap gap-3">
+<a href="tel:0763415857" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 border border-line bg-white text-burgundy hover:bg-burgundy/5" >0763415857<span aria-hidden="true">↗</span>
+</a>
+<a href="tel:0756776107" class="inline-flex min-h-12 items-center justify-center gap-4 rounded-md px-6 py-3 text-sm font-semibold transition duration-300 bg-burgundy text-white hover:bg-wine" >0756776107<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-[#261b20] pb-24 pt-12 text-white sm:pb-7">
+<div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+<div class="grid gap-9 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
+<div>
+<a href="#" class="text-2xl font-extrabold tracking-tight">SIBRA <span class="text-gold">SPICES</span>
+</a>
+<p class="mt-3 text-xs leading-7 text-white/60">BEST Spices Distributors in Uganda.<br>Premium wholesale & retail spices,<br>custom blends, and personal guidance.</p>
+<div class="mt-5 flex gap-4 text-xs font-semibold text-white/85">
+<a href="https://www.tiktok.com/@sibraspices" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+<a href="https://wa.me/256763415857" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+</div>
+</div>
+<div>
+<h2 class="mb-4 text-xs font-bold text-white/90">Explore Sibra</h2>
+<div class="grid gap-3 text-xs text-white/55">
+<a class="hover:text-white" href="#products">Our spices & prices</a>
+<a class="hover:text-white" href="#wholesale">Wholesale supply</a>
+<a class="hover:text-white" href="#consultations">Lectures & consultations</a>
+<a class="hover:text-white" href="#locations">Find a branch</a>
+</div>
+</div>
+<div>
+<h2 class="mb-4 text-xs font-bold text-white/90">Visit us</h2>
+<address class="text-xs not-italic leading-7 text-white/55">
+<strong class="font-semibold text-white/80">Kafumbe Mukasa Road, Kampala</strong>
+<br>Opposite Valley Park,<br>near Denovo Shop.<br>
+<strong class="mt-3 inline-block font-semibold text-white/80">Owino Market</strong>
+<br>Lectures & consultations.</address>
+</div>
+<div>
+<h2 class="mb-4 text-xs font-bold text-white/90">Speak to our team</h2>
+<a href="tel:0763415857" class="mb-3 block text-sm font-semibold">0763415857 ↗</a>
+<a href="tel:0756776107" class="mb-5 block text-sm font-semibold">0756776107 ↗</a>
+<h3 class="mb-2 text-xs font-semibold text-white/80">Operational hours</h3>
+<p class="text-xs leading-6 text-white/55">Call to confirm today’s opening hours and lecture appointments before visiting.</p>
+</div>
+</div>
+<div class="mt-10 flex flex-col justify-between gap-3 border-t border-white/10 pt-5 text-[10px] text-white/40 sm:flex-row">
+<p>© <span id="year">
+</span> SIBRA SPICES. All rights reserved.</p>
+<p>Also known as Sibrah Spices <span class="mx-2">·</span> Kampala, Uganda</p>
+</div>
+</div>
+</footer>
+<a href="https://wa.me/256763415857" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-30 hidden items-center gap-3 rounded-full bg-herb px-5 py-4 text-xs font-bold text-white shadow-xl shadow-black/20 transition hover:-translate-y-1 hover:bg-[#244934] sm:inline-flex" aria-label="Order from Sibra Spices on WhatsApp">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+<path d="M21 11.5a9 9 0 0 1-13.5 8L3 21l1.5-4.5A9 9 0 1 1 21 11.5Z"/>
+<path d="M8 8c1 4 2 5 6 6l2-2M8 8l2-1M8 8l-1 2"/>
+</svg> Order via WhatsApp</a>
+<div class="fixed bottom-0 left-0 right-0 z-30 grid grid-cols-2 gap-3 border-t border-line bg-white/95 px-4 pb-[max(10px,env(safe-area-inset-bottom))] pt-2.5 backdrop-blur-xl sm:hidden">
+<a href="tel:0763415857" class="flex min-h-12 items-center justify-center gap-2 rounded-md border border-burgundy/20 text-xs font-bold text-burgundy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+<path d="M7 3H4a1 1 0 0 0-1 1c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3l-5-2-2 2a15 15 0 0 1-7-7l2-2-2-5Z"/>
+</svg> Call Sibra</a>
+<a href="https://wa.me/256763415857" target="_blank" rel="noopener noreferrer" class="flex min-h-12 items-center justify-center gap-2 rounded-md bg-herb text-xs font-bold text-white">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+<path d="M21 11.5a9 9 0 0 1-13.5 8L3 21l1.5-4.5A9 9 0 1 1 21 11.5Z"/>
+<path d="M8 8c1 4 2 5 6 6l2-2M8 8l2-1M8 8l-1 2"/>
+</svg> WhatsApp order</a>
+</div>
+</body>
+</html>

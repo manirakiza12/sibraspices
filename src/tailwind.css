@@ -1,0 +1,36 @@
+﻿@import "tailwindcss";
+@theme {
+ --font-sans: "Manrope", Arial, sans-serif;
+ --color-burgundy: #751f32;
+ --color-wine: #591526;
+ --color-herb: #315b3f;
+ --color-gold: #c39330;
+ --color-cream: #f8f5ef;
+ --color-soft: #fafaf7;
+ --color-ink: #242a25;
+ --color-stone: #6c726b;
+ --color-line: #e8e7e0;
+}
+@layer base {
+ html { @apply scroll-smooth scroll-pt-28; }
+ body { @apply min-w-0; }
+ *, *::before, *::after { box-sizing: border-box; }
+ img { @apply block max-w-full; }
+ svg { @apply size-[18px] shrink-0; }
+ button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+ button { @apply cursor-pointer; }
+ input, select, textarea { @apply min-w-0 max-w-full outline-none focus:border-burgundy focus:ring-2 focus:ring-burgundy/15; }
+ a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-4 outline-burgundy; }
+ ::selection { @apply bg-gold/25; }
+ [hidden] { display: none !important; }
+ h1,h2,h3,p,a { overflow-wrap: break-word; }
+}
+@layer components {
+ .hero-slide { @apply min-w-0 transition-[opacity,visibility] duration-700 ease-in-out motion-reduce:transition-none; }
+ .hero-slide > div { @apply min-w-0; }
+ .slide-dot span { @apply transition-all duration-300 motion-reduce:transition-none; }
+}
+@media (prefers-reduced-motion: reduce) {
+ html { scroll-behavior: auto; }
+ *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

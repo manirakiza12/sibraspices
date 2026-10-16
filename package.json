@@ -1,0 +1,16 @@
+{
+  "name": "sibra-spices",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev.mjs",
+    "test": "node scripts/verify.mjs && node scripts/interaction-tests.mjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/node": "4.3.3"
+  },
+  "type": "module"
+}
